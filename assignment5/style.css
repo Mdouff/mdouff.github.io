@@ -1,0 +1,107 @@
+body{
+background-color: #004658;
+
+
+}
+
+h2 {
+  text-align: center;
+  color: #371d19;
+  font-size: 60px;
+  font-family: cursive;
+
+}
+
+.block {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 900px;
+height: 550px;
+margin: auto;
+
+}
+
+.sub{
+border: 10px solid #091718;
+  width: 36%;
+  height: 550px;
+background-color: #8d5b3e;
+color: #371d19;
+margin: 50px;
+text-align: center;
+font-family: fantasy;
+font-size:9px;
+font-style: oblique;
+font-weight: bolder;
+}
+img{
+margin-top: 25px;
+}
+.orange{
+  background-color: #091718;
+  padding: 7%;
+  color: white;
+  font-size:12px;
+  text-decoration: none;
+}
+.modalwindow2{
+position: fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color: rgba(107, 38, 35,0.8);
+opacity: 0;
+pointer-events: none;
+}
+
+
+.modalwindow{
+position: fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color: rgba(107, 38, 35,0.8);
+opacity: 0;
+pointer-events: none;
+
+}
+.modalwindow:target {
+ opacity: 1;
+ pointer-events: auto;
+}
+
+.modalwindow2:target {
+ opacity: 1;
+ pointer-events: auto;
+}
+
+.msgblock{
+  width: 50%;
+  height: 70%;
+  background-color: #964c2c;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+}
+
+.msgblock h1 {
+font-family: cursive;
+background-color: #417c8b;
+}
+
+.msgblock p{
+  background-color: #417c8b;
+  font-family: cursive;
+  font-size:15px;
+}
+
+.closure {
+  background-color: #091718;
+  padding: 5%;
+  text-decoration: none;
+  color: white;
+  font-size:12px;
+}
