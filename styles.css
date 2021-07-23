@@ -1,54 +1,51 @@
-body {
-background-color: teal;
+.main-box {
+  border: 2px solid red;
+  background-color: lightpink;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-section {
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    align-items: center;
+    width: 100%;
 
 }
-h1{
 
-font-family: sans-serif;
-text-align: center;
-color: white;
+.box-section:nth-child(2){
+    flex-direction: row-reverse;
 }
 
-.box{
-background-image: url(clockimage.png);
-background-size: 300px 314px;
-width: 300px;
-height: 314px;
-background-repeat: no-repeat;
-position: relative;
-transform-origin: center;
-background-color: teal;
-border: 5px solid white;
+.block-img {
+    width: 30%;
+    margin: 1%;
+}
+.box-link {
+    height: 100%;
+    width: 100%;
 }
 
-  .imgbox2 {
-position: absolute;
-left:48%;
-top: 38%;
-transform-origin: left;
-animation-name: hour;
-animation-duration: 7s;
-animation-iteration-count: infinite;
+.box-text {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    width: 70%;
+}
 
-  }
+h5{
+color:black;
+font-size: 10px;
+}
 
-  .imgbox {
-  position: absolute;
-  left: 36%;
-  bottom: 49%;
-  transform-origin: bottom;
-  animation-name: minutes;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
 
-    }
-    @keyframes minutes {
-      0%{}
-      100% {transform: rotate(360deg);}
-    }
+.p1{
+width: 100px;
+height: 150px;
 
-    @keyframes hour {
-      0%{}
-      100% {transform: rotate(30deg);}
 
-      }
+}
+
